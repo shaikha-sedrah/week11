@@ -1,0 +1,104 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-image:linear-gradient(rgba(8, 44, 113,0.6),rgba(8, 44, 113,0.6)),url('source/BackgroundImage.jpg');
+    background-size: cover;
+
+}
+.container{
+    padding:41px 150px;
+    display:flex;
+    flex-direction: column; }
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center; }
+.navbar img{
+    width: 166px;
+    height: 35px;
+}
+.navbar-buttons{
+    display:flex;
+    width:340px;
+    justify-content: space-between;
+    align-items: center; }
+.set {
+    display:flex;
+    width: 300px;  }
+
+.icons-set{
+    display:flex; 
+    width:455px;
+    flex-wrap: wrap;
+    align-items: center;}
+.img-content img{
+    width: 254.07px;
+    height: 213px;
+
+}
+
+.blue-rect{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1283px;
+    height: 246px;
+    background-color:rgba(12,16,119,0.5); }
+
+.img-content{
+    display:flex;  
+    width: 470px;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-content p{
+    font-size:23px;
+    color:white;
+    font-family: 'Cormorant Infant', sans-serif;
+    font-weight:500; }
+.img-content p span{
+    font-size:20px;
+    color:white;
+    font-family: 'Cormorant Infant', sans-serif;
+    font-weight:300; }
+ul{
+    list-style:none;
+    }
+a, a:active, a:visited{
+    text-decoration:none;
+    color:white;
+    font-family: 'Imprima', sans-serif;
+    font-size: 20px; }
+button{
+    background: #0C1077;
+    border-radius: 20px;
+    width: 127px;
+    height: 50px;
+    border: none;
+    color:white;
+    font-family: 'Imprima', sans-serif;
+    font-size: 20px; }
+
+.heading-text{
+    font-family: 'Cormorant Infant', sans-serif;
+    font-size:90px;
+    line-height: 115px;
+    color:white;
+    padding-top:100px;}
+.icon-text{
+    font-family: 'Cormorant Infant', sans-serif;
+    color:white;
+    line-height: 40px;
+    font-weight:500;
+    font-size:25px; }
+.icon-text span{
+    font-family: 'Cormorant Infant', sans-serif;
+    color:white;
+    line-height: 40px;
+    font-weight: 600;
+    font-size:36px; }
+
+
+

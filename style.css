@@ -1,0 +1,118 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-image:linear-gradient(rgba(8, 44, 113,0.6),rgba(8, 44, 113,0.6)),url('source/BackgroundImage.jpg');
+    height:100%;
+    width:100%;
+
+    background-size: cover; }
+
+.container{
+    padding:40px 150px; }
+/* Nav-bar Style */
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center; }
+.navbar img{
+    width: 166px;
+    height: 35px;
+}
+.navbar-buttons{
+    display:flex;
+    width:340px;
+    justify-content: space-between;
+    align-items: center; }
+ul{
+    list-style:none;
+    }
+a, a:active, a:visited{
+    text-decoration:none;
+    color:white;
+    font-family: 'Imprima', sans-serif;
+    font-size: 20px; }
+button{
+    background: #0C1077;
+    border-radius: 20px;
+    width: 127px;
+    height: 50px;
+    border: none;
+    color:white;
+    font-family: 'Imprima', sans-serif;
+    font-size: 20px; }
+
+/* Heading Text */
+.heading-text{
+    font-family: 'Cormorant Infant', sans-serif;
+    font-size:95px;
+    line-height: 115px;
+    color:white;
+    padding-bottom:15px;
+    padding-top:65px;}
+
+
+/* The Four Icons */
+.icons-set{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+}
+
+.icon-text{
+    font-family: 'Cormorant Infant', sans-serif;
+    color:white;
+    line-height: 40px;
+    font-weight:600;
+    font-size:25px; }
+.icon-text span{
+    font-family: 'Cormorant Infant', sans-serif;
+    color:white;
+    line-height: 40px;
+    font-weight: 600;
+    font-size:36px; }
+
+.set{
+    display:flex;
+    gap:5px;
+    padding-right:50px;
+    padding-bottom:15px;
+    padding-top:15px;}
+
+
+/* Blue Rect */
+.img-content img{
+    width: 254.07px;
+    height: 213px;
+
+}
+
+.blue-rect{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 1283px;
+    height: 246px;
+    left: 150px;
+    top: 778px;
+    background-color:rgba(12,16,119,0.5); }
+
+.img-content{
+    display:flex;  
+    gap:15px;
+    align-items: center; }
+.img-content p{
+    font-size:23px;
+    color:white;
+    font-family: 'Cormorant Infant', sans-serif;
+    font-weight:500; }
+.img-content p span{
+    font-size:20px;
+    color:white;
+    font-family: 'Cormorant Infant', sans-serif;
+    font-weight:300; }
+
+
+
