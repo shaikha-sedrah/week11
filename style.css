@@ -6,6 +6,7 @@ body{
     background-image:linear-gradient(rgba(8, 44, 113,0.6),rgba(8, 44, 113,0.6)),url('source/BackgroundImage.jpg');
     height:100%;
     width:100%;
+
     background-size: cover; }
 
 .container{
